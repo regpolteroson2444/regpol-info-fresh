@@ -1,0 +1,41 @@
+:root {
+  --mainBlue: #153243;
+  --mainRed: #e92828;
+}
+.footer {
+  background-color: var(--mainBlue);
+  width: 100%;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 11px;
+  padding: 5px;
+  color: white;
+}
+
+.footer a {
+  color: white;
+  font-size: 13px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .footer p {
+    font-size: 15px;
+  }
+  .footer a {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .footer {
+    display: flex;
+    padding: 5px 20px;
+    justify-content: space-between;
+  }
+  .footer p {
+    letter-spacing: 1px;
+    width: 100%;
+  }
+}
