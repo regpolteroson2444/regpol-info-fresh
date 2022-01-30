@@ -14,6 +14,9 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
+    "engines": {
+    "node": ">=14.15.0"
+  },
   "dependencies": {
     "@formspree/react": "^2.2.4",
     "babel-plugin-styled-components": "^2.0.2",
