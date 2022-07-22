@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/Layouts";
 import Helmet from "react-helmet";
 import scrollTo from "gatsby-plugin-smoothscroll";
+
 import styles from "styled-components";
 import { graphql, useStaticQuery } from "gatsby";
 import { GatsbyImage } from "gatsby-plugin-image";
@@ -258,7 +259,6 @@ margin: 20px auto;
   }
 }
 `;
-
 const data = graphql`
   query MyQuery {
     allImageSharp {
@@ -287,8 +287,7 @@ export default function Home() {
     <Layout>
       <Helmet>
         <title>
-          Kleje przemysłowe, uszczelniacze, silikony | Loctite 243, Teroson ms
-          939 – Regpol Bydgoszcz
+          Kleje przemysłowe, uszczelniacze, silikony | Regpol Bydgoszcz
         </title>
         <meta
           name="description"
@@ -303,34 +302,35 @@ export default function Home() {
           name="google-site-verification"
           content="0t_mUGg6-O9Is_yqF-wo4-LiCuWSniEbcSsZ5cW0qPs"
         />
-        <script type="application/ld+json">
-          {/* {
-        "@context": "http://schema.org",
-        "@type": "LocalBusiness",
-        "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Bydgoszcz",
-        "addressRegion": "Kujawsko-Pomorskie",
-        "streetAddress": " Lecha Kaczyńskiego"
-        },
-        "name": "Regpol",
-        "telephone": "52 345 38 75"
-        } */}
-        </script>
-      </Helmet>
 
-      <StyledSection>
-        <div className="C2A">
-          <p>
-            Technologie które sprostają <br /> największym wyzwaniom
-          </p>
-          <button onClick={() => scrollTo("#HomePageArticle")}>
-            Zobacz Więcej
-          </button>
-        </div>
-        <div className="littleImage">
-          <p>Autoryzowany Dystrybutor</p>
-          <GatsbyImage
+        <script type="application/ld+json">{`
+        {
+          "@context": "http://schema.org",
+          "@type": "LocalBusiness",
+          "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Bydgoszcz",
+          "addressRegion": "Kujawsko-Pomorskie",
+          "streetAddress": " Lecha Kaczyńskiego"
+          },
+          "name": "Regpol",
+          "telephone": "52 345 38 75"
+        }
+    `}</script>
+      </Helmet>
+      <>
+        <StyledSection>
+          <div className="C2A">
+            <p>
+              Technologie które sprostają <br /> największym wyzwaniom
+            </p>
+            <button onClick={() => scrollTo("#HomePageArticle")}>
+              Zobacz Więcej
+            </button>
+          </div>
+          <div className="littleImage">
+            <p>Autoryzowany Dystrybutor</p>
+            <GatsbyImage
             image={loctiteLogo[0].gatsbyImageData}
             alt="logo loctite teroson"
           />
@@ -340,39 +340,42 @@ export default function Home() {
           image={backgroundImage[0].gatsbyImageData}
           alt="background image"
         />
-      </StyledSection>
-      <StyledArticle id="HomePageArticle">
-        <div className="articleLogo">
-          <p>BIURO HANDLOWE</p>
-          <img alt="regpol logo" src={BottomLogo}></img>
-        </div>
-        <div className="articleDescription">
-          <h1 style={{ marginTop: "30px", fontSize: "30px" }}>
-            Wysokiej jakości kleje przemysłowe
-          </h1>
-          <p style={{ textAlign: "justify" }}>
-            Witamy wszystkich bardzo serdecznie. Miło nam, że odwiedziliście
-            Państwo naszą stronę. Firma Biuro Handlowe REGPOL Bydgoszcz Sp. z
-            o.o. istnieje od 1992 roku. Jesteśmy autoryzowanym przedstawicielem
-            firmy HENKEL. W ofercie naszego sklepu znajdują się produkty między
-            innymi takie jak: Loctite 243 oraz Teroson MS 939, które w branży
-            przemysłowej i motoryzacyjnej stanowią podstawową bazę środków
-            chemicznych w naprawach, renowacjach i konserwacjach. Na szczególną
-            uwagę zasługują produkty Teroson. Kleje te nie bez powodu cieszą się
-            dużą popularnością, zważywszy na same pozytywne właściwości.
-            Gwarantujemy, że wybrany z asortymentu klej do aluminium Loctite
-            będzie spełniać najwyższe oczekiwania. Funkcjonujemy po to, aby
-            zapewnić Państwu komfortowy zakup jakościowych produktów w jednym
-            miejscu.
-            {/* </p>  <br><br> */}
-            Nasze doświadczenie, zdobyte po tylu latach obcowania z marką
-            HENKEL, pozwala nam służyć Państwu wszelką pomocą w zakresie doboru
-            odpowiedniego produktu oraz rozwiązywania najbardziej nietypowych
-            problemów, z którymi mogą się Państwo spotkać nie tylko w sferze
-            zawodowej. Zachęcamy do skorzystania z naszej oferty!
-          </p>
-        </div>
-      </StyledArticle>
+        </StyledSection>
+        <StyledArticle id="HomePageArticle">
+          <div className="articleLogo">
+            <p>BIURO HANDLOWE</p>
+            <img alt="regpol logo" src={BottomLogo}></img>
+          </div>
+          <div class="articleDescription" style={{ marginTop: "30px" }}>
+            <h1 style={{ marginTop: "30px", fontSize: "30px" }}>
+              Wysokiej jakości kleje przemysłowe: loctite 243, teroson ms 939
+            </h1>
+            <p style={{ textAlign: "justify" }}>
+              Witamy wszystkich bardzo serdecznie. Miło nam, że odwiedziliście
+              Państwo naszą stronę. Firma Biuro Handlowe REGPOL Bydgoszcz Sp. z
+              o.o. istnieje od 1992 roku. Jesteśmy autoryzowanym
+              przedstawicielem firmy HENKEL. W ofercie naszego sklepu znajdują
+              się produkty między innymi takie jak: Loctite 243 oraz Teroson MS
+              939, które w branży przemysłowej i motoryzacyjnej stanowią
+              podstawową bazę środków chemicznych w naprawach, renowacjach i
+              konserwacjach. Na szczególną uwagę zasługują produkty Teroson.
+              Kleje te nie bez powodu cieszą się dużą popularnością, zważywszy
+              na same pozytywne właściwości. Gwarantujemy, że wybrany z
+              asortymentu klej do aluminium Loctite będzie spełniać najwyższe
+              oczekiwania. Funkcjonujemy po to, aby zapewnić Państwu komfortowy
+              zakup jakościowych produktów w jednym miejscu.{" "}
+            </p>
+            <p style={{ textAlign: "justify" }}>
+              Nasze doświadczenie, zdobyte po tylu latach obcowania z marką
+              HENKEL, pozwala nam służyć Państwu wszelką pomocą w zakresie
+              doboru odpowiedniego produktu oraz rozwiązywania najbardziej
+              nietypowych problemów, z którymi mogą się Państwo spotkać nie
+              tylko w sferze zawodowej. Zachęcamy do skorzystania z naszej
+              oferty!
+            </p>
+          </div>
+        </StyledArticle>
+      </>
     </Layout>
   );
 }
