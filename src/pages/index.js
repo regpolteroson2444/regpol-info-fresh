@@ -351,27 +351,9 @@ export default function Home() {
               Wysokiej jakości kleje przemysłowe
             </h1>
             <p style={{ textAlign: "justify" }}>
-              Witamy wszystkich bardzo serdecznie. Miło nam, że odwiedziliście
-            Państwo naszą stronę. Firma Biuro Handlowe REGPOL Bydgoszcz Sp. z
-            o.o. istnieje od 1992 roku. Jesteśmy autoryzowanym przedstawicielem
-            firmy HENKEL. W ofercie naszego sklepu znajdują się produkty między
-            innymi takie jak: Loctite 243 oraz Teroson MS 939, które w branży
-            przemysłowej i motoryzacyjnej stanowią podstawową bazę środków
-            chemicznych w naprawach, renowacjach i konserwacjach. Na szczególną
-            uwagę zasługują produkty Teroson. Kleje te nie bez powodu cieszą się
-            dużą popularnością, zważywszy na same pozytywne właściwości.
-            Gwarantujemy, że wybrany z asortymentu klej do aluminium Loctite
-            będzie spełniać najwyższe oczekiwania. Funkcjonujemy po to, aby
-            zapewnić Państwu komfortowy zakup jakościowych produktów w jednym
-            miejscu.
+              Witamy wszystkich bardzo serdecznie. Miło nam, że odwiedziliście Państwo naszą stronę. Firma Biuro Handlowe REGPOL Bydgoszcz Sp. z o.o. istnieje od 1992 roku. Jesteśmy autoryzowanym przedstawicielem firmy HENKEL. W ofercie naszego sklepu znajdują się produkty między innymi takie jak: Loctite 243 oraz Teroson MS 939, które w branży przemysłowej i motoryzacyjnej stanowią podstawową bazę środków chemicznych w naprawach, renowacjach i konserwacjach. Na szczególną uwagę zasługują produkty Teroson. Kleje te nie bez powodu cieszą się dużą popularnością, zważywszy na same pozytywne właściwości. Gwarantujemy, że wybrany z asortymentu klej do aluminium Loctite będzie spełniać najwyższe oczekiwania. Funkcjonujemy po to, aby zapewnić Państwu komfortowy zakup jakościowych produktów w jednym miejscu.Nasze doświadczenie, zdobyte po tylu latach obcowania z marką HENKEL, pozwala nam służyć Państwu wszelką pomocą w zakresie doboru odpowiedniego produktu oraz rozwiązywania najbardziej nietypowych problemów, z którymi mogą się Państwo spotkać nie tylko w sferze zawodowej. Zachęcamy do skorzystania z naszej oferty!
             </p>
-            <p style={{ textAlign: "justify" }}>
-              Nasze doświadczenie, zdobyte po tylu latach obcowania z marką
-            HENKEL, pozwala nam służyć Państwu wszelką pomocą w zakresie doboru
-            odpowiedniego produktu oraz rozwiązywania najbardziej nietypowych
-            problemów, z którymi mogą się Państwo spotkać nie tylko w sferze
-            zawodowej. Zachęcamy do skorzystania z naszej oferty!
-            </p>
+           
           </div>
         </StyledArticle>
       </>
