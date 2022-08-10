@@ -300,7 +300,7 @@ export default function Home() {
         <link rel="canonical" href="https://www.regpol.info/"></link>
         <meta
           name="google-site-verification"
-          content="0t_mUGg6-O9Is_yqF-wo4-LiCuWSniEbcSsZ5cW0qPs"
+          content="jx9uaxSdtiJpL1U6Cfiriax_dbwuhtEaYITcNooU_Z4"
         />
 
         <script type="application/ld+json">{`
@@ -348,11 +348,15 @@ export default function Home() {
           </div>
           <div class="articleDescription" style={{ marginTop: "30px" }}>
             <h1 style={{ marginTop: "30px", fontSize: "30px" }}>
-              Wysokiej jakości kleje przemysłowe
+            Wysokiej jakości kleje i smary przemysłowe: Teroson, Loctite, Bonderite, Technomelt, Molykote. 
             </h1>
             <p style={{ textAlign: "justify" }}>
-              Witamy wszystkich bardzo serdecznie. Miło nam, że odwiedziliście Państwo naszą stronę. Firma Biuro Handlowe REGPOL Bydgoszcz Sp. z o.o. istnieje od 1992 roku. Jesteśmy autoryzowanym przedstawicielem firmy HENKEL. W ofercie naszego sklepu znajdują się produkty między innymi takie jak: Loctite 243 oraz Teroson MS 939, które w branży przemysłowej i motoryzacyjnej stanowią podstawową bazę środków chemicznych w naprawach, renowacjach i konserwacjach. Na szczególną uwagę zasługują produkty Teroson. Kleje te nie bez powodu cieszą się dużą popularnością, zważywszy na same pozytywne właściwości. Gwarantujemy, że wybrany z asortymentu klej do aluminium Loctite będzie spełniać najwyższe oczekiwania. Funkcjonujemy po to, aby zapewnić Państwu komfortowy zakup jakościowych produktów w jednym miejscu.Nasze doświadczenie, zdobyte po tylu latach obcowania z marką HENKEL, pozwala nam służyć Państwu wszelką pomocą w zakresie doboru odpowiedniego produktu oraz rozwiązywania najbardziej nietypowych problemów, z którymi mogą się Państwo spotkać nie tylko w sferze zawodowej. Zachęcamy do skorzystania z naszej oferty!
+            Witamy wszystkich bardzo serdecznie. Miło, że odwiedziliście Państwo naszą stronę. Firma Biuro Handlowe REGPOL Bydgoszcz Sp. z o.o. istnieje już od 1992 roku. Jesteśmy autoryzowanym przedstawicielem i Premium Partnerem firmy HENKEL. W naszej ofercie znajdziecie Państwo wszystko to, czego potrzebujecie. Proponujemy m.in. najwyższej jakości rozwiązania dla przemysłu i motoryzacji; kleje przemysłowe Loctite i Teroson, zabezpieczenia gwintów, kleje błyskawiczne, kleje do mocowania współosiowego, masy klejąco uszczelniające, kompozyty polimerowe, środki smarne, masy wygłuszające, klej do aluminium, aktywatory, a także wiele innych produktów. Są one bardzo często stosowane w motoryzacji i przemyśle. Jeżeli chodzi o oferowane przez nas kleje, to stanowią one gwarancję trwałego połączenia. Posiadamy całą gamę produktów Loctite i Teroson, cechujące się odmiennym zastosowaniem i działaniem, które posiadają wszelkie dopuszczenia i certyfikaty uznawane na całym świecie. Dzięki naszym produktom niemożliwe staje się możliwe, świetnie radzimy sobie z trudno sklejanymi materiałami takimi jak polipropylen, polietylen, teflon i guma silikonowa. 
             </p>
+            <h2 style={{marginTop: "30px"}}>Kleje Loctite oraz Teroson</h2>
+            <p style={{ textAlign: "justify" }}>W ofercie naszego sklepu znajdują się m.in. takie produkty jak Loctite 243 oraz Teroson MS 939. Kleje przemysłowe, a także motoryzacyjne stanowią główną bazę środków chemicznych podczas napraw, renowacji i konserwacji. Kleje i smary nie bez powodu cieszą się tak dużą popularnością, są niezwykle skuteczne i wydajne. Gwarantujemy, że zarówno one, jak i wybrane z asortymentu kleje przemysłowe, kleje błyskawiczne, cyjanoakrylowe Loctite będą spełniać najwyższe oczekiwania. Funkcjonujemy po to, aby zapewnić Państwu komfortowy i bezpieczny zakup jakościowych produktów – a klej do zabezpieczeń połączeń gwintowych  Loctite 243 oraz wysokiej lepkości Teroson MS 939 bez wątpienia do nich należą!</p>
+            <p style={{ textAlign: "justify" }}><strong>Nasze hasło przewodnie brzmi „Technologie które sprostają największym oczekiwaniom”</strong></p>
+            <p style={{ textAlign: "justify" }}>W naszym bogatym asortymencie posiadamy nie tylko produkty Loctite czy Teroson. Kleje te oczywiście cieszą się niesłabnącym zainteresowaniem naszych klientów, co napawa nas ogromną radością, ale oprócz nich dysponujemy również innym, wysokiej jakości towarem. Nasze doświadczenie, zdobyte po tylu latach obcowania z marką HENKEL, pozwala służyć Państwu wszelką pomocą w zakresie doboru odpowiedniego produktu oraz rozwiązania najbardziej nietypowych problemów, z którymi można się spotkać, np. w sferze zawodowej. Zachęcamy do skorzystania z naszej oferty.</p>
            
           </div>
         </StyledArticle>
