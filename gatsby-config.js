@@ -19,6 +19,14 @@ module.exports = {
     "gatsby-plugin-svgr-svgo",
     "gatsby-transformer-sharp",
     {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'http://localhost:8000/',
+        sitemap: 'https://www.example.com/sitemap.xml',
+        policy: [{userAgent: '*', allow: '/'}]
+      }
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
