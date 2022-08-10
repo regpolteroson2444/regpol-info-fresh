@@ -21,8 +21,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'http://localhost:8000/',
-        sitemap: 'https://www.example.com/sitemap.xml',
+        host: 'https://regpol.info/',
+        sitemap: 'https://regpol.info/sitemap.xml',
         policy: [{userAgent: '*', allow: '/'}]
       }
     },
