@@ -18,11 +18,12 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-plugin-svgr-svgo",
     "gatsby-transformer-sharp",
+    `gatsby-plugin-sitemap`,
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://regpol.info/',
-        sitemap: 'https://regpol.info/sitemap.xml',
+        host: 'http://localhost:8000/',
+        sitemap: 'https://www.example.com/sitemap.xml',
         policy: [{userAgent: '*', allow: '/'}]
       }
     },
